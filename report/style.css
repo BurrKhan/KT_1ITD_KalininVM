@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0B0B0F;
+  color: #FFFFFF;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  border-bottom: 2px solid #9C4DFF;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #9C4DFF;
+}
+
+code {
+  background: #222;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #FF4DF2;
+}
+
+img {
+  max-width: 100%;
+  border: 2px solid #9C4DFF;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.comment {
+  font-style: italic;
+  color: #AAAAAA;
+}

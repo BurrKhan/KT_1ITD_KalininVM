@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Отчёт по итоговой КТ №1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Отчёт по Итоговой Контрольной Точке №1</h1>
+    <p><strong>Образовательная организация:</strong> IThub Distant<br>
+       <strong>ФИО:</strong> Калинин Виталий Михайлович<br>
+       <strong>Группа:</strong> 1ЭИТ1<br>
+       <strong>Год:</strong> 2025</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Описание лабораторной работы</h2>
+      <p>Целью работы является создание и настройка простой сети в Cisco Packet Tracer с изменением hostname, IP-адресов в соответствии с порядковым номером, а также экспорт конфигурации и сборка документации.</p>
+    </section>
+
+    <section>
+      <h2>Изменения в топологии</h2>
+      <ul>
+        <li>Hostname роутера изменён на: <code>Kalinin_Router</code></li>
+        <li>Третий октет IP-адреса: <code>192.168.<strong>24</strong>.X</code> — где 24 это номер в списке</li>
+        <li>Вторая сеть использует: <code>192.168.25.X</code></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Топология сети</h2>
+      <img src="images/topology.png" alt="Схема сети" />
+      <p class="comment">На схеме видно два ПК, подключённых к роутеру, каждый в своей подсети. Визуально показано, как соединены интерфейсы FastEthernet и как IP-адреса привязаны к устройствам.</p>
+    </section>
+
+    <section>
+      <h2>Конфигурация роутера</h2>
+      <img src="images/config_screenshot.png" alt="Консоль роутера" />
+      <p class="comment">На скриншоте видно команды <code>hostname</code>, <code>interface</code>, <code>ip address</code> и результат команды <code>show running-config</code>. Это позволяет проверить правильность настройки IP-адресов и имени устройства.</p>
+    </section>
+
+    <section>
+      <h2>Выводы</h2>
+      <p>Работа выполнена успешно. Все устройства корректно настроены, IP-адреса заданы согласно требованиям. Сеть работает стабильно, пинги проходят, конфигурации сохранены и экспортированы. Создан HTML-отчёт и загружен в Git-репозиторий.</p>
+    </section>
+
+    <section>
+      <h2>Ссылки</h2>
+      <ul>
+        <li><a href="https://github.com/BurrKhan/KT_1ITD_KalininVM" target="_blank">Ссылка на репозиторий GitHub</a></li>
+        <li>Файл топологии: <code>KT_1ITD_KalininVM.pkt</code></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
